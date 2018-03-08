@@ -60,8 +60,9 @@ test slett senere
 
 .sin{
     background-color:silver;
-    margin: 100px;
-    padding: 100px;
+    margin-left: 190px;
+    margin-top: 50px;
+    padding: 10px;
     font-size: 30px;
     border: double 10px black;
     width: 500px;
@@ -89,6 +90,12 @@ test slett senere
 }
 
 .text{
-    text-align: right;
+    text-align: left;
+    color: black;
+}
 
+.headlinerh1{
+    text-align: center;
+    color:blue;
+   
 }
