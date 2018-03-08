@@ -80,8 +80,6 @@ test slett senere
     padding: 20px;
     font-size: 30px;
     border: double 10px black;
-    width:80px;
-    height: 20px;
     text-align: center;
 }
 
@@ -98,4 +96,16 @@ test slett senere
     text-align: center;
     color:blue;
    
+}
+
+.googlelink{
+    background-image: url("C:/Users/ITK17/Documents/GitHub/css-kurs/bilder/google2.0.0.jpg");
+    background-size: 100%;
+    height:1.2em;
+}
+
+.w3link{
+    background: url("C:/Users/ITK17/Documents/GitHub/css-kurs/bilder/w3schools.png");
+    background-size: 100%;
+    height:2em;
 }
