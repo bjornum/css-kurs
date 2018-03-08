@@ -23,6 +23,10 @@ warning
 danger
 info
 
+.body{
+    background-color: cyan;
+}
+
 .primary-bg{
     background-color: lightgreen;
 }
