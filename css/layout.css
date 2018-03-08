@@ -9,6 +9,7 @@ FLEXBOX
     display: flex;
     background-color: dodgerblue;
     border: dashed 10px black;
+    margin-bottom:50px;
 }
 
 .navbar{
@@ -16,7 +17,7 @@ FLEXBOX
     margin: 10px;
     padding: 10px;
     font-size: 30px;
-    width:200px;
+    width:300px;
     height: 50px;
     text-align: center;
 }
@@ -28,6 +29,7 @@ test slett senere
 
 .singular{
     display:flex;
+    padding-top:50px;
 }
 
 .sing{
@@ -58,8 +60,8 @@ test slett senere
 
 .sin{
     background-color:silver;
-    margin: 20px;
-    padding: 20px;
+    margin: 100px;
+    padding: 100px;
     font-size: 30px;
     border: double 10px black;
     width: 500px;
@@ -72,7 +74,7 @@ test slett senere
     flex-direction:column;
 }
 .column div{
-    background-color: green;
+    background-color: rgb(51, 143, 51);
     margin: 10px;
     padding: 20px;
     font-size: 30px;
@@ -83,5 +85,10 @@ test slett senere
 }
 
 .body{
-    background-color:lightblue;
+    background-color:rgb(120, 164, 179);
+}
+
+.text{
+    text-align: right;
+
 }
