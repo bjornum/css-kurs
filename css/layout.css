@@ -14,9 +14,10 @@ FLEXBOX
 .navbar{
     background-color: #f1f1f1;
     margin: 10px;
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     width:200px;
+    height: 50px;
     text-align: center;
 }
 
@@ -30,6 +31,19 @@ test slett senere
 }
 
 .sing{
+    background-color:red;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    border: solid 10px black;
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    color: purple;
+    text-shadow: 2px 2px gray
+}
+
+.sing2{
     background-color:red;
     margin: 20px;
     padding: 20px;
