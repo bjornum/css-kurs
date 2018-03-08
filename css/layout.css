@@ -1,18 +1,22 @@
 /*
 FLEXBOX
 */
-
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
 .flex-container{
     display: flex;
     background-color: dodgerblue;
-    border: solid 10px black;
+    border: dashed 10px black;
 }
 
-.flex-container > div{
+.navbar{
     background-color: #f1f1f1;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
+    width:200px;
     text-align: center;
 }
 
@@ -25,25 +29,40 @@ test slett senere
     display:flex;
 }
 
-.singular > div{
+.sing{
     background-color:red;
     margin: 20px;
     padding: 20px;
     font-size: 30px;
     border: solid 10px black;
     width: 200px;
+    height: 100px;
     text-align: center;
-    color: blue;
-    text-shadow: 2px 2px green
+    color: purple;
+    text-shadow: 2px 2px gray
 }
 
-.column> div{
+.sin{
+    background-color:silver;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    border: double 10px black;
+    width: 500px;
+    height: 400px;
+    text-align: center;
+    color: black;
+}
+.column {
+    display: flex;
+    flex-direction:column;
+}
+.column div{
     background-color: green;
     margin: 10px;
     padding: 20px;
     font-size: 30px;
-    flex-direction:column;
-    border: solid 10px black;
+    border: double 10px black;
     width:80px;
     height: 20px;
     text-align: center;
