@@ -7,7 +7,6 @@ FLEXBOX
     flex-direction: row;
     flex-grow: 3;
     flex-shrink:1;
-    align-self:stretch;
 }
 
 .flex-column{
@@ -18,7 +17,6 @@ FLEXBOX
 .flex-activate-wrap{
     display: flex;
     flex-wrap: wrap;
-    align-self:stretch;
 }
 
 .flex-navbar{

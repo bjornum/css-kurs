@@ -10,6 +10,9 @@
     padding:1px;
 }
 
+/* Middle Box*/
+
+
 .utility-boks-middle{
     border:solid 1px black;
     background-color:lightgray;
@@ -30,27 +33,45 @@
 .flexbox-test1{
     display:flex
 }
-.flex-test1{
+
+/*Boks 1 til 3*/
+
+
+.utility-boks1{
     border:solid 1px black;
     background-color:lightcyan;
-    padding: 5px;
-    margin: 5px;
-    align-self:stretch;
+}
+.utility-boks1-padding{
+    padding:30px;
+}
+.utility-boks1-margin{
+    margin-left:30px;
 }
 
-.flex-test2{
+
+.utility-boks2{
     border:solid 1px blue;
     background-color: rgb(136, 219, 219);
-    padding: 5px;
-    margin: 5px;
+}
+.utility-boks2-padding{
+    padding:30px;
+}
+.utility-boks2-margin{
+    margin-left:30px;
 }
 
-.flex-test3{
+
+.utility-boks3{
     border:solid 1px rgb(5, 5, 82);
     background-color: rgb(48, 189, 189);
-    padding: 5px;
-    margin: 5px;
 }
+.utility-boks3-padding{
+    padding:30px;
+}
+.utility-boks3-margin{
+    margin-left:30px;
+}
+
 
 .utility-middlebox-text{
     text-align:center;
