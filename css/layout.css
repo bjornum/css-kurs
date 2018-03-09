@@ -1,16 +1,52 @@
 /*
 FLEXBOX
 */
+.flex-row{
+    display:flex;
+    flex-direction: row;
+    flex-grow: 3;
+    flex-shrink:1;
+}
+.flex-row-margin{
+    margin-bottom:30px;
+}
+
+.flex-column{
+    display:flex;
+    flex-direction: column;
+}
+
+.flex-activate-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.flex-singular{
+    display:flex;
+    padding-top:50px;
+    padding-bottom:50px;
+    flex-shrink:1;
+    align-content:center;
+}
+
 .container{
     display: flex;
     flex-wrap: wrap;
 }
+
 .flex-container{
     display: flex;
     background-color: dodgerblue;
     border: dashed 10px black;
     margin-bottom:50px;
 }
+
+/* 
+    /FLEXBOX 
+*/
+
+
 
 .navbar{
     background-color: #f1f1f1;
@@ -118,4 +154,17 @@ test slett senere
 
 .hiddentext{
     font-size: 0;
+}
+
+.middlebox {
+    width: 80%;
+    height:300px;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:30px;
+    padding-bottom:30px;
+    margin-bottom:40px;
+    margin-left:5%;
+    margin-top:50px;
+    margin-right:5%;
 }

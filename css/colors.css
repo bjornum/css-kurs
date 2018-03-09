@@ -18,10 +18,10 @@
 .red{
     color: red
 }
-success
-warning
-danger
-info
+.success {}
+.warning {}
+.danger{}
+.info{}
 
 .body{
     background-color: cyan;
@@ -36,14 +36,6 @@ info
     border:1px solid gray;
 }
 
-<!-- lager en test link backgrunn -->
-.linker ul{
-margin: 0;
-padding: 5px;
-list-style-type: none;
-text-align: center;
-background-color: #44ae30;
-}
 
 .linker ul li{
     display:inline;
@@ -61,15 +53,11 @@ background-color: #44ae30;
     background-color:#fff
 }
 
------------------------------09.03.18
+/* -----------------------------09.03.18 */
 
-
-.color-primary{
-    color:blue;
-}
-.color-primary-dark{
-    color:darkblue;
-}
+.middlebox {background-color: purple;}
+.color-primary{color:blue;}
+.color-primary-dark{color:darkblue;}
 .color-primary-light{
     color:lightblue;
 }
@@ -83,35 +71,3 @@ background-color: #44ae30;
     background-color: #7ce7e2;
 }
 
-.navbar-test{
-    background-color:blue;
-    color:white;
-    height:100px;
-    border: solid 1px black;
-    border-radius: 10px;
-    position:absolute;
-    float: left;
-    overflow: auto;
-}
-
-.box-150-px-1-test{
-    height: 150px;
-    width: 150px;
-    border: solid 1px black;
-    margin: 25px;
-}
-
-.margin-25-px{
-    margin: 25px 10px 2px 100px
-}
-
-.box-50-px-1-test{
-    height: 50px;
-    width: 50px;
-    margin: 5px;
-    border:solid 1px red;
-}
-
-.get-flex{
-    display:flex;
-}
