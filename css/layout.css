@@ -115,3 +115,7 @@ test slett senere
     background-size: 100%;
     height:2em;
 }
+
+.hiddentext{
+    font-size: 0;
+}
