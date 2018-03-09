@@ -17,17 +17,18 @@
     border:solid 1px black;
     background-color: lightgray;
     color: black;
-    text-align:left;
+    text-align:center;
 }
 .utility-knapp1-padding{
     padding:1px;
 }
 .utility-knapp1-margin{
-    margin:10px;
+    margin-left:80px;
+    margin-top:20px;
 }
 .utility-knapp1-width-height{
-    width:100px;
-    height:30px;
+    width:200px;
+    height:40px;
 }
 
 .utility-knapp2{
@@ -37,10 +38,15 @@
     text-align:center;
 }
 .utility-knapp2-padding{
-    padding:1px;
+    padding 1px;
 }
 .utility-knapp2-margin{
-    margin:10px;
+    margin-left:50px;
+    margin-right:50px;
+}
+.utility-knapp2-width-height{
+    width:600px;
+    height:70px;
 }
 
 .utility-knapp3{
@@ -54,6 +60,10 @@
 }
 .utility-knapp3-margin{
     margin:10px;
+}
+.utility-knapp3-width-height{
+    width:200px;
+    height:40px;
 }
 /* Middle Box*/
 
@@ -73,6 +83,7 @@
 .margin-middlebox{
     margin-bottom:10px;
     margin-left:40%;
+    margin-top:50px;
 }
 .flexbox-test1{
     display:flex
