@@ -25,6 +25,10 @@
 .utility-knapp1-margin{
     margin:10px;
 }
+.utility-knapp1-width-height{
+    width:100px;
+    height:30px;
+}
 
 .utility-knapp2{
     border:solid 1px black;
