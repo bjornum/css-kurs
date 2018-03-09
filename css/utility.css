@@ -4,8 +4,10 @@
     border:solid 1px black;
     background-color: lightgray;
     color: black;
-    padding:1px;
     text-align:left;
+}
+.knapp1-padding{
+    padding:1px;
 }
 
 .utility-boks-middle{
@@ -13,12 +15,18 @@
     background-color:lightgray;
     color:black;
     font-size:30px;  
-    margin-bottom:50;
-    margin-left:50px;
-    padding:50%;
-    padding-left:30px;  
 }
 
+.padding-middlebox{
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.margin-middlebox{
+    margin-bottom:10px;
+    margin-left:50px;
+}
 .flexbox-test1{
     display:flex
 }
