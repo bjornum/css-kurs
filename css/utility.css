@@ -1,0 +1,49 @@
+
+
+.knapp1{
+    border:solid 1px black;
+    background-color: lightgray;
+    color: black;
+    padding:1px;
+    text-align:left;
+}
+
+.utility-boks-middle{
+    border:solid 1px black;
+    background-color:lightgray;
+    color:black;
+    font-size:30px;  
+    margin-bottom:50;
+    margin-left:50px;
+    padding:50%;
+    padding-left:30px;  
+}
+
+.flexbox-test1{
+    display:flex
+}
+.flex-test1{
+    border:solid 1px black;
+    background-color:lightcyan;
+    padding: 5px;
+    margin: 5px;
+    align-self:stretch;
+}
+
+.flex-test2{
+    border:solid 1px blue;
+    background-color: rgb(136, 219, 219);
+    padding: 5px;
+    margin: 5px;
+}
+
+.flex-test3{
+    border:solid 1px rgb(5, 5, 82);
+    background-color: rgb(48, 189, 189);
+    padding: 5px;
+    margin: 5px;
+}
+
+.utility-middlebox-text{
+    text-align:center;
+}

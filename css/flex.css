@@ -5,9 +5,34 @@ FLEXBOX
 .flex-row{
     display:flex;
     flex-direction: row;
+    flex-grow: 3;
+    flex-shrink:1;
+    align-self:stretch;
 }
 
 .flex-column{
     display:flex;
     flex-direction: column;
 }
+
+.flex-activate-wrap{
+    display: flex;
+    flex-wrap: wrap;
+    align-self:stretch;
+}
+
+.flex-navbar{
+    display: flex;
+    background-color:lightblue;
+    border:solid 1px black;
+    margin:2px;
+}
+
+.flex-singular{
+    display:flex;
+    padding-top:50px;
+    padding-bottom:50px;
+    flex-shrink:1;
+    align-content:center;
+}
+

@@ -80,7 +80,7 @@ background-color: #44ae30;
     background-color: indianred;
 }
 .color-primary-bg{
-    background-color: #0088ce;
+    background-color: #7ce7e2;
 }
 
 .navbar-test{
@@ -110,4 +110,8 @@ background-color: #44ae30;
     width: 50px;
     margin: 5px;
     border:solid 1px red;
+}
+
+.get-flex{
+    display:flex;
 }
