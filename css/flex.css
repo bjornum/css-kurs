@@ -7,6 +7,10 @@ FLEXBOX
     flex-direction: row;
     flex-grow: 3;
     flex-shrink:1;
+
+}
+.flex-row-margin{
+    margin-bottom:30px;
 }
 
 .flex-column{

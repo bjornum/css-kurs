@@ -21,14 +21,14 @@
 }
 
 .padding-middlebox{
-    padding-left:30px;
-    padding-right:30px;
-    padding-top:15px;
-    padding-bottom:15px;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:30px;
+    padding-bottom:30px;
 }
 .margin-middlebox{
     margin-bottom:10px;
-    margin-left:45%;
+    margin-left:40%;
 }
 .flexbox-test1{
     display:flex
@@ -42,10 +42,10 @@
     background-color:lightcyan;
 }
 .utility-boks1-padding{
-    padding:30px;
+    padding:50px;
 }
 .utility-boks1-margin{
-    margin-left:30px;
+    margin-left:19%;
 }
 
 
@@ -54,10 +54,10 @@
     background-color: rgb(136, 219, 219);
 }
 .utility-boks2-padding{
-    padding:30px;
+    padding:50px;
 }
 .utility-boks2-margin{
-    margin-left:30px;
+    margin-left:15%;
 }
 
 
@@ -66,10 +66,10 @@
     background-color: rgb(48, 189, 189);
 }
 .utility-boks3-padding{
-    padding:30px;
+    padding:50px;
 }
 .utility-boks3-margin{
-    margin-left:30px;
+    margin-left:15%;
 }
 
 
