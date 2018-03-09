@@ -81,9 +81,10 @@
     padding-bottom:30px;
 }
 .margin-middlebox{
-    margin-bottom:10px;
-    margin-left:40%;
+    margin-bottom:40px;
+    margin-left:5%;
     margin-top:50px;
+    margin-right:5%;
 }
 .flexbox-test1{
     display:flex
@@ -91,6 +92,10 @@
 
 .utility-middlebox-text{
     text-align:center;
+}
+.utility-middlebox-height-width{
+    width: 80%;
+    height:300px;
 }
 /*Boks 1 til 3*/
 
