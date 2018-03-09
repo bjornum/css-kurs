@@ -7,7 +7,6 @@ FLEXBOX
     flex-direction: row;
     flex-grow: 3;
     flex-shrink:1;
-
 }
 .flex-row-margin{
     margin-bottom:30px;
@@ -23,10 +22,8 @@ FLEXBOX
     flex-wrap: wrap;
 }
 
-.flex-navbar{
-    display: flex;
-    background-color:lightblue;
-    border:solid 1px black;
+
+.flex-navbar-margin{
     margin:2px;
 }
 

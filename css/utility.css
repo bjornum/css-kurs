@@ -1,17 +1,57 @@
 
+/* Navigation Bar*/
 
-.knapp1{
+.utility-navbar-layout{
+    display: flex;
+    background-color:lightblue;
+    border:solid 1px black;
+}
+.utility-navbar-margin{
+    margin:2px;
+}
+.utility-navbar-padding{
+    padding:20px;
+}
+
+.utility-knapp1{
     border:solid 1px black;
     background-color: lightgray;
     color: black;
     text-align:left;
 }
-.knapp1-padding{
+.utility-knapp1-padding{
     padding:1px;
 }
+.utility-knapp1-margin{
+    margin:10px;
+}
 
+.utility-knapp2{
+    border:solid 1px black;
+    background-color: lightgray;
+    color:black;
+    text-align:center;
+}
+.utility-knapp2-padding{
+    padding:1px;
+}
+.utility-knapp2-margin{
+    margin:10px;
+}
+
+.utility-knapp3{
+    border:solid 1px black;
+    background-color: lightgray;
+    color:black;
+    text-align:center;
+}
+.utility-knapp3-padding{
+    padding:1px;
+}
+.utility-knapp3-margin{
+    margin:10px;
+}
 /* Middle Box*/
-
 
 .utility-boks-middle{
     border:solid 1px black;
@@ -34,8 +74,10 @@
     display:flex
 }
 
+.utility-middlebox-text{
+    text-align:center;
+}
 /*Boks 1 til 3*/
-
 
 .utility-boks1{
     border:solid 1px black;
@@ -72,7 +114,3 @@
     margin-left:15%;
 }
 
-
-.utility-middlebox-text{
-    text-align:center;
-}
